@@ -1,0 +1,47 @@
+
+.inscription{
+    width : 40%; 
+    h3,h4{
+        font-family: $font1;
+        text-align: center;
+        margin-top : 10px;
+        font-weight: bold;
+    }
+    h6{
+        margin-top : 30px;
+        font-family: $font1;
+        text-align: center;
+        margin : 10px;
+    }
+    form{
+        margin-top : 30px;
+        border : 1px solid $light-grey;
+        padding : 20px!important;
+        .form-group{
+            display: flex;
+            input{
+                width: 15em;
+                margin: 0 30px;
+            }
+            
+        }
+        #emailHelp{
+            text-align: center;
+            font-family: $font1;
+        }
+        .send{
+            width : 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+            button{
+                width : 100px;
+            }
+        }
+    }
+    .confirmed{
+        font-family: $font1;
+        text-align: center;
+    }
+}
